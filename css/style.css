@@ -315,7 +315,7 @@ body.menu-open {
   pointer-events: all;
 }
 
-.cnav .logo-holder img {
+.cnav .logo-holder {
   width: 2.4rem;
 }
 

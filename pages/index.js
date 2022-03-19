@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import {IntersectionObserver } from '../components/intersection-observer'
 import {BlogCard} from '../components/BlogCard'
+import DevMedia from './devmedia'
 
 export default function Home() {
 
@@ -44,7 +45,7 @@ export default function Home() {
       <title>CRE8</title>
 
       </Head>
-      <body className={ menuOpen ? "menu-open" : "" } style={{ fontFamily:'"Comfortaa", cursive'}}>
+      <body className={ menuOpen ? "menu-open" : "" }>
         <div className={menuOpen? "menu-toggle open": "menu-toggle"} onClick={()=>{setMenuOpen(!menuOpen)}}>
             <div className="icon"></div>
         </div>
@@ -74,7 +75,10 @@ export default function Home() {
             <div className="row">
                 <div className="col">
                     <div className="logo-holder">
-                        <a href="index.html"><img className="logo" src="images/logo.svg" alt="CRE8"/></a>
+
+                        <div className="logo">
+                        <DevMedia/>
+                        </div>
                     </div>
                 </div>
                 <div className="col text-right">
@@ -87,7 +91,7 @@ export default function Home() {
                 </div>
             </div>
         </nav>
-        <header className="container-fluid header" >
+        <header className="container-fluid header" style={{ height:'100vh'}}>
             <div className="row">
                 <div className="col">
                     <motion.div className="lg-text" initial="initial" animate='animate'>
