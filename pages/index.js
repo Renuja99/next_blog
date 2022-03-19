@@ -37,10 +37,11 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet"/>
+        
       <title>CRE8</title>
-      
+
       </Head>
-      <body className={ menuOpen ? "menu-open" : "" }>
+      <body className={ menuOpen ? "menu-open" : "" } style={{ fontFamily:'Comfortaa, cursive'}}>
         <div className={menuOpen? "menu-toggle open": "menu-toggle"} onClick={()=>{setMenuOpen(!menuOpen)}}>
             <div className="icon"></div>
         </div>
