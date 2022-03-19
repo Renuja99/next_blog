@@ -41,7 +41,7 @@ export default function Home() {
       <title>CRE8</title>
 
       </Head>
-      <body className={ menuOpen ? "menu-open" : "" } style={{ fontFamily:'Comfortaa, cursive'}}>
+      <body className={ menuOpen ? "menu-open" : "" } style={{ fontFamily:'"Comfortaa", cursive'}}>
         <div className={menuOpen? "menu-toggle open": "menu-toggle"} onClick={()=>{setMenuOpen(!menuOpen)}}>
             <div className="icon"></div>
         </div>
