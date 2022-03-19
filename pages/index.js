@@ -39,7 +39,7 @@ export default function Home() {
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"/>
         
       <title>CRE8</title>
 
