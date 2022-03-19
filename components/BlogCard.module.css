@@ -1,0 +1,54 @@
+/* -----------------------------------
+    10 - Blog Section Styles
+------------------------------------*/
+.blog-section {
+  padding: 6rem;
+  background-color: #fff;
+}
+
+.post-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #eeeeee;
+  padding-bottom: 5rem;
+}
+
+.post-box:last-child {
+  margin-bottom: 0;
+}
+
+.post-box .text-holder {
+  padding: 6.5rem 5rem;
+}
+
+.post-box .text-holder .title {
+  display: inline-block;
+  color: #232931;
+  text-align: left;
+  font-family: 'Lalezar', cursive;
+  font-size: 5.3rem;
+  line-height: 3.9rem;
+  text-transform: uppercase;
+  margin-bottom: 2.2rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.post-box .text-holder .title:hover,
+.post-box .text-holder .title:focus {
+  text-decoration: none;
+  color: #60666d;
+}
+
+.post-box .text-holder .text {
+  color: rgba(0, 0, 0, 0.66);
+  font-size: 1.26rem;
+  line-height: 2.5rem;
+}
+
+.post-box .img-holder img {
+  width: 29rem;
+}
