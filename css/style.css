@@ -338,8 +338,8 @@ body.menu-open {
 @media (max-width: 768px) {
   .logo-holder .logo {
     position: absolute;
-    top: -40px;
-    left: -35px;
+    top: -60px;
+    left: -45px;
     height: 150px;
     width: 158px;
   }
