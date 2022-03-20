@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useState, useRef, useEffect } from 'react'
-import { motion } from 'framer-motion'
+import { motion, useAnimation } from 'framer-motion'
 import {IntersectionObserver } from '../components/intersection-observer'
 import {BlogCard} from '../components/BlogCard'
 import DevMedia from './devmedia'
@@ -27,6 +27,7 @@ export default function Home() {
             }
         }
     }
+
 
   
         
@@ -76,7 +77,7 @@ export default function Home() {
                 <div className="col">
                     <div className="logo-holder">
 
-                        <div className="logo">
+                        <div className="logo" >
                         <DevMedia/>
                         </div>
                     </div>

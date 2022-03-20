@@ -319,6 +319,39 @@ body.menu-open {
   width: 2.4rem;
 }
 
+.logo-holder .logo {
+  position: relative;
+  top: -40px;
+  left: -90px;
+  height: 256px;
+  width: 256px;
+}
+
+.logo-holder .logo svg {
+  position: relative;
+  top: 34px;
+  left: 0px;
+  height: 250px;
+  width: 258px;
+}
+
+@media (max-width: 768px) {
+  .logo-holder .logo {
+    position: absolute;
+    top: -40px;
+    left: -35px;
+    height: 150px;
+    width: 158px;
+  }
+
+  .logo-holder .logo svg {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    height: 150px;
+    width: 158px;
+  }
+}
 .cnav .social-media {
   display: inline-block;
   opacity: 1;
