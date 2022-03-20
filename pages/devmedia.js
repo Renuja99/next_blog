@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 
-const devmedia = () => {
+const Devmedia = () => {
 
 
 	const controls = useAnimation();
@@ -41,4 +41,4 @@ const devmedia = () => {
     )
 }
 
-export default devmedia
+export default Devmedia
